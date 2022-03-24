@@ -2,11 +2,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Caio Felício de Souza
+- Matrícula: 19.2.8171
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 21.2
+- Link para o seu GitHub: https://github.com/caiofelicio
 
 ## [Projeto final:](./Projeto/README.md)
 
