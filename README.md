@@ -11,3 +11,10 @@
 ## [Projeto final:](./Projeto/README.md)
 
 ## Sistemas para adoção de animais
+
+### Funcionalidades previstas
+
+- [ ] cadastrar um usuário
+- [ ] editar perfil do usuario
+- [ ] cadastrar animais para adoção
+- [ ] adotar um animal de estimação
