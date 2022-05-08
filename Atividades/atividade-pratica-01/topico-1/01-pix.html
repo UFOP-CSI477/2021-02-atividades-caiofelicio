@@ -1,0 +1,129 @@
+<!-- O objetivo desta aplicação é controlar as transferências enviadas e recebidas por meio do PIX. Crie uma interface para permitir que toda a sua movimentação financeira seja controlada.
+
+Você precisa disponibilizar um campo para indicar o tipo da chave (CPF, CNPJ, e-mail, número de celular ou chave aleatória) e o valor da chave conforme esse tipo. Além disso, indique o tipo da operação (envio ou recebimento), o valor em reais e a data.
+
+Para a definição dos bancos envolvidos no envio e no recebimento, utilize a seguinte API para carregar os dados das instituições financeiras.
+
+Quando o usuário clicar, por exemplo, em "Finalizar", a aplicação deverá exibir um resumo contendo o valor total das transações por tipo de operação (envio ou recebimento) e o saldo final (a diferença entre envios e recebimentos).
+
+
+ -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="preconnect" href="https//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/pix-logo.svg" type="image/x-icon">
+    <script src="./scripts/loadBanks.js" defer></script>
+    <script src="./scripts/appendInputElement.js" defer></script>
+    <script src="./scripts/buttonListener.js" defer></script>
+    <title>Controle de PIX</title>
+</head>
+
+<body>
+    <header class="header-content">
+        <h1>Sistema de transferências via PIX</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-side">
+            <form class="form">
+                <div class="input-key">
+                    <label for="key-type">Tipo de chave</label>
+                    <select name="key-type" id="key-type">
+                        <option value="blank" selected>Selecione uma chave</option>
+                        <option value="cpf">CPF</option>
+                        <option value="cnpj">CNPJ</option>
+                        <option value="email">E-mail</option>
+                        <option value="phone">Celular</option>
+                        <option value="random">Chave aleatória</option>
+                    </select>
+                </div>
+
+                <div class="input-operation">
+                    <label for="operation">Tipo de operação</label>
+                    <select name="operation" id="operation">
+                        <option value="send" selected>Envio</option>
+                        <option value="receive">Recebimento</option>
+                    </select>
+                </div>
+
+                <div class="input-bank">
+                    <label for="bank">Banco</label>
+                    <select name="bank" id="bank">
+                        <option value="">Selecione um banco</option>
+                    </select>
+                </div>
+
+                <div class="input-value">
+                    <label for="value">Valor</label>
+                    <input type="number" name="value" min="0" id="value" placeholder="R$ 0,00">
+                </div>
+
+                <div class="input-date">
+                    <label for="date">Data</label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div class="btn-finish">
+                    <button class="finish-button" id="finish">Finalizar</button>
+                </div>
+
+            </form>
+        </div>
+
+        <!-- fica oculta até clicar no botão finalizar -->
+        <div class="right-side" style="display: none;">
+            <div class="resume">
+                <h2>Resumo</h2>
+                
+                <!-- as seguintes div's são preenchidas ao pressionar o botão -->
+
+                <div class="op-key">
+                </div>
+
+                <div class="op-value">
+                </div>
+
+                <div class="op-type">
+                </div>
+                
+                <div class="op-bank">
+                </div>
+
+                <div class="op-balance">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="about">
+        <div class="left-side">
+            <span>Feito por:</span>
+            <div class="contact">
+                <a class="github" href="https://github.com/caiofelicio" target="_blank">
+                    <img src="./images/github.svg" alt="Ícone do github">
+                    Caio Felício
+                </a>
+            </div>
+        </div>
+        <div class="right-side">
+            <span>Contato:</span>
+            <div class="contact-right">
+                <a class="email" href="mailto:caio.felicio@aluno.ufop.edu.br">
+                    <img src="./images/email.svg" alt="Ícone de email">
+                    caio.felicio@aluno.ufop.edu.br
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
