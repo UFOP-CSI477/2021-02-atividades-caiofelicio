@@ -16,57 +16,60 @@
 </head>
 
 <body>
-    <div class="header-content">
-        <h1 class="page-title">Conversor de Moedas</h1>
-        <img class="coin-img" src="./images/coin.svg" alt="Imagem de uma moeda" />
-    </div>
+    <div class="page-container">
 
-    <div class="container">
-        <main class="main-content">
-            <form class="form">
-                <div class="result"></div>
-                <div class="wrapper">
-                    <div class="form-group">
-                        <label for="src-currency">Moeda de origem</label>
-                        <select class="form-control" id="src-currency">
-                            <option value="">Selecione uma moeda</option>
-                        </select>
+        <div class="header-content">
+            <h1 class="page-title">Conversor de Moedas</h1>
+            <img class="coin-img" src="./images/coin.svg" alt="Imagem de uma moeda" />
+        </div>
+        
+        <div class="container">
+            <main class="main-content">
+                <form class="form">
+                    <div class="result"></div>
+                    <div class="wrapper">
+                        <div class="form-group">
+                            <label for="src-currency">Moeda de origem</label>
+                            <select class="form-control" id="src-currency">
+                                <option value="">Selecione uma moeda</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="from-currency">Moeda de destino</label>
+                            <select class="form-control" id="from-currency">
+                                <option value="">Selecione uma moeda</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="from-currency">Moeda de destino</label>
-                        <select class="form-control" id="from-currency">
-                            <option value="">Selecione uma moeda</option>
-                        </select>
+                    <div class="form-group last">
+                        <label class="value" for="valor">Valor</label>
+                        <input id="amount" class="form-control" type="text" placeholder="0,00" autocomplete="off" />
                     </div>
+                    <button id="submit-button" type="submit">Converter</button>
+                </form>
+            </main>
+        </div>
+        <footer class="about">
+            <div class="left-side">
+                <span>Feito por:</span>
+                <div class="contact">
+                    <a class="github" href="https://github.com/caiofelicio" target="_blank">
+                        <img src="./images/github.svg" alt="Ícone do github">
+                        Caio Felício
+                    </a>
                 </div>
-                <div class="form-group last">
-                    <label class="value" for="valor">Valor</label>
-                    <input id="amount" class="form-control" type="text" placeholder="0,00" autocomplete="off" />
+            </div>
+            <div class="right-side">
+                <span>Contato:</span>
+                <div class="contact-right">
+                    <a class="email" href="mailto:caio.felicio@aluno.ufop.edu.br">
+                        <img src="./images/email.svg" alt="Ícone de email">
+                        caio.felicio@aluno.ufop.edu.br
+                    </a>
                 </div>
-                <button id="submit-button" type="submit">Converter</button>
-            </form>
-        </main>
+            </div>
+        </footer>
     </div>
-    <footer class="about">
-        <div class="left-side">
-            <span>Feito por:</span>
-            <div class="contact">
-                <a class="github" href="https://github.com/caiofelicio" target="_blank">
-                    <img src="./images/github.svg" alt="Ícone do github">
-                    Caio Felício
-                </a>
-            </div>
-        </div>
-        <div class="right-side">
-            <span>Contato:</span>
-            <div class="contact-right">
-                <a class="email" href="mailto:caio.felicio@aluno.ufop.edu.br">
-                    <img src="./images/email.svg" alt="Ícone de email">
-                    caio.felicio@aluno.ufop.edu.br
-                </a>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>

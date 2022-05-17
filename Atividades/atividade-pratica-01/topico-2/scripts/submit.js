@@ -28,7 +28,6 @@ submitButton.addEventListener('click', function (event) {
 
 function verifyInput(field) {
     let value = field.value;
-    console.log(value);
 
     if (value.includes(",")) {
         value = value.replace(",", ".");
