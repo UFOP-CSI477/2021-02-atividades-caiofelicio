@@ -1,29 +1,33 @@
 # **CSI606-2021-02 - Remoto - Trabalho Final - Resultados**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## *Aluno: Caio Felício de Souza*
 
 --------------
 
-<!-- Este documento tem como objetivo apresentar o projeto desenvolvido, considerando o que foi definido na proposta e o produto final. -->
-
-### Resumo
-
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
-
 ### 1. Funcionalidades implementadas
-<!-- Descrever as funcionalidades que eram previstas e foram implementas. -->
+    1- Cadastro de usuário: 
+        - [x] Cadastro de usuário
+        - [x] Edição de usuário
+    
+    2- Cadastro de animais:
+        - [x] Cadastro de animais
+        - [x] Adoção de animais
   
 ### 2. Funcionalidades previstas e não implementadas
-<!-- Descrever as funcionalidades que eram previstas e não foram implementas, apresentando uma breve justificativa do porquê elas não foram incluídas -->
+ ```js
+  error 404
+ ```
 
 ### 3. Outras funcionalidades implementadas
-<!-- Descrever as funcionalidades implementas além daquelas que foram previstas, caso se aplique.  -->
+    * Upload de arquivos direto no S3 da AWS.
 
 ### 4. Principais desafios e dificuldades
-<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
+    Tive algumas dificuldades com o frontend, tive que reiniciar ele do zero. Depois que comecei a usar o Tailwind, consegui desenvolver a interface com mais facilidade.
 
 ### 5. Instruções para instalação e execução
-<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
+    Como o backend utiliza o S3 da amazon, e para configurar no código, são necessárias as chaves de acesso, não subir elas para o Github. Quem tiver interesse em usar o projeto, pode entrar em contato comigo: caio.felicio@aluno.ufop.edu.br.
 
 ### 6. Referências
-<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
+    - UPLOAD de arquivos: front-end com ReactJS | Diego Fernandes.     Youtube: [s. n.], 2019. Disponível em: https://www.youtube.com/watch?v=G5UZmvkLWSQ. Acesso em: 7 jun. 2022.
+
+    - UPLOAD de arquivos: back-end com NodeJS | Diego Fernandes. Youtube: [s. n.], 2019. Disponível em: https://www.youtube.com/watch?v=MkkbUfcZUZM&ab_channel=Rocketseat. Acesso em: 1 jun. 2022.

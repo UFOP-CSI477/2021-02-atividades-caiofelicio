@@ -1,0 +1,36 @@
+/* .form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  align-items: center;
+} */
+
+.h1 {
+  margin-bottom: 1.5em;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* input {
+  max-width: 40%;
+} */
+
+.input_group {
+  margin-bottom: .7em;
+}
+
+.form_control button {
+  margin-top: 1em;
+}
+
+.form_control p {
+  margin-top: 1em;
+}
+
+.form_control a {
+  color: #1d4ed8;
+}
+
+.form_control a:hover {
+  border-bottom: solid 1px #1d4ed8;
+}

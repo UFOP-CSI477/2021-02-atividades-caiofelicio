@@ -1,6 +1,6 @@
 # **CSI606-2021-02 - Remoto - Proposta de Trabalho Final**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## *Aluno: Caio Felício de Souza*
 
 --------------
 
@@ -8,28 +8,30 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+    O objetivo do trabalho é desenvolver um sistema de adoção de animais, que possibilite a adoção de animais de estimação, de acordo com as necessidades do usuário.
 
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O trabalho final tem como tema o desenvolvimento de ...
+    Sistemas para adoção de animais
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  Este projeto terá as seguintes funcionalidades...
+    Este projeto terá as seguintes funcionalidades:
+    - [x] cadastrar um usuário
+    - [x] editar perfil do usuario
+    - [x] cadastrar animais para adoção
+    - [x] adotar um animal de estimação
+
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
-### 3. Restrições
+### 3. Protótipo
 
-  Neste trabalho não serão considerados ...
+    Não foi desenvolvido protótipo de páginas. Tudo foi pensado no momento da criação.
 
-<!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
-### 4. Protótipo
+### 4. Referências
 
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
+    - UPLOAD de arquivos: front-end com ReactJS | Diego Fernandes.     Youtube: [s. n.], 2019. Disponível em: https://www.youtube.com/watch?v=G5UZmvkLWSQ. Acesso em: 7 jun. 2022.
 
-### 5. Referências
-
-  Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT.
+    - UPLOAD de arquivos: back-end com NodeJS | Diego Fernandes. Youtube: [s. n.], 2019. Disponível em: https://www.youtube.com/watch?v=MkkbUfcZUZM&ab_channel=Rocketseat. Acesso em: 1 jun. 2022.
