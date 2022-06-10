@@ -14,7 +14,7 @@
 
 ### Funcionalidades previstas
 
-- [ ] cadastrar um usuário
-- [ ] editar perfil do usuario
-- [ ] cadastrar animais para adoção
-- [ ] adotar um animal de estimação
+- [x] cadastrar um usuário
+- [x] editar perfil do usuario
+- [x] cadastrar animais para adoção
+- [x] adotar um animal de estimação
