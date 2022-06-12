@@ -10,7 +10,7 @@ Crie um projeto a partir do Laravel para o sistema. Realize as configurações n
  - [**NodeJs**](https://nodejs.org/en/)
  - **Yarn** - Veja [aqui](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) como instalar.
 
-# 2 - Para instalar as dependências do projeto:
+# 3 - Para instalar as dependências do projeto:
 
 ## Backend
 
