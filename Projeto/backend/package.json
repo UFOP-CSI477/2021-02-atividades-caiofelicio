@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --cls src/index.ts"
+    "dev": "ts-node-dev src/index.ts"
   },
   "devDependencies": {
     "@types/aws-sdk": "^2.7.0",
